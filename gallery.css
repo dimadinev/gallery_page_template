@@ -1,3 +1,7 @@
+.gallery-page-container{
+    text-align: center;
+}
+
 #imagecontainer {
 	max-width:1024px;
 	max-height: 900px;
