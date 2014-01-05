@@ -5,10 +5,8 @@ Template Name: Gallery Page
 ?>
 
 <?php get_header(); ?>
-		    <div class="container-fluid">
-			<div id="content" class="clearfix row-fluid">
-                            
-				<div id="main" class="span12 clearfix gallery-page-container" role="main">
+        
+				<div id="main" class="gallery-page-container" role="main">
 					<div class="top-clear"></div>
                                     <script type="text/javascript">;
                                     
@@ -101,15 +99,13 @@ Template Name: Gallery Page
 							
                                         </script>
 					
-                                    <div id="imagecontainer">
-					<span id="nextButton" onMouseUp="nextImage();return false;" ></span>     
-                                        <span id="previousButton" onMouseUp="previousImage();return false;" ></span> 
-                                        <img id="loader" src="path to loader image" />
-					<img id="images" src="" onload="opacityReset()" />
+                    <div id="imagecontainer">
+						<span id="nextButton" onMouseUp="nextImage();return false;" ></span>     
+											<span id="previousButton" onMouseUp="previousImage();return false;" ></span> 
+											<img id="loader" src="path to loader image" />
+						<img id="images" src="" onload="opacityReset()" />
 				    </div>
 			
 				</div> <!-- end #main -->
 
-    
-			</div> <!-- end #content -->
 <?php get_footer(); ?>
