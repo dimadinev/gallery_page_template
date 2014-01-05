@@ -1,0 +1,33 @@
+#imagecontainer {
+	max-width:1024px;
+	max-height: 900px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 40px !important;
+	position:relative;
+}
+	
+
+#nextButton{
+	position:absolute;
+	cursor:pointer;
+	right:0%;
+	/*background-color: #666;*/
+	height:100%;
+	padding-left: 30%;
+}
+
+#loader{
+	position:absolute;
+	right:50%;
+	bottom:50%;
+	visibility:hidden;
+}
+
+#previousButton{
+	position:absolute;
+	cursor:pointer;
+	/*background-color: #666;*/
+	height:100%;
+	width: 30%;
+}
