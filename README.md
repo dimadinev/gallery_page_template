@@ -23,3 +23,5 @@ You need to add the path to the galleries folder again, please note this is what
 You need to add the path to a loader image such as a small spinner GIF
 
 > Line 105 - `<img id="loader" src="path to loader image" />`
+
+This is being used for the gallery pages on http://www.markmackayphotography.com/
