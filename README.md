@@ -1,7 +1,9 @@
 Gallery Page Template
 =====================
 
-A template which can be used in wordpress for image gallery pages. The images are loaded in and the left and right and sides are clickable for navigation.
+A template which can be used in wordpress for image gallery pages. 
+
+The images are loaded in and the left and right sides are clickable for navigation.
 
 It uses the `get_the_title()` function in wordpress to get the gallery name so you will need to name each gallery folder the same as your gallery pages.
 
